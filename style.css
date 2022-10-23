@@ -1,0 +1,402 @@
+body {
+    background: #F8F8F8;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Questrial', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background: #B4A093; */
+    padding: 20px;
+    height: 40px;
+    width: 98%;
+    overflow: hidden;
+    /* margin-right: 20px; */
+    /* border-bottom: 2px solid white; */
+  }
+  
+  .navbar-item {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar-item:hover {
+    color: #b8905b
+    /* color: #827c12; */
+    /* color: #FAF8D4; */
+  }
+  
+  button {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    /* font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-size: 16px;
+    /* font-weight: 600; */
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  button:hover,
+  button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  button:hover {
+    transform: translateY(-1px);
+  }
+  
+  button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+  
+  .main {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+  }
+  
+  .main::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    /* font-size: 4vw; */
+    font-size: 2vw;
+    margin-top: 20px;
+  }
+  
+  .first-part,
+  .second-part,
+  .third-part,
+  .fourth-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hifi-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 300px;
+  }
+  
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  #co-owners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 900;
+  }
+  
+  #co-owners-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  #feedback-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 40px;
+  }
+  
+  #about-desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: 5px;
+    font-size: 0.92vw;
+  }
+  
+  #first-img,
+  #second-img,
+  #third-img {
+    width: 45%;
+    margin-top: 20px;
+  }
+  
+  #hifi-tablet-img {
+    width: 65%;
+    margin-top: 20px;
+  }
+  
+  #co-owners-desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 1.8;
+  }
+  
+  #menu-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 5px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #input {
+    width: 25%;
+    font-family: 'Questrial', sans-serif;
+  }
+  
+  .boxed {
+    border: 1px;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gmap_canvas {
+    border-style: double;
+    border-width: 0.001cm;
+  }
+  
+  .contact-text {
+    border-style: double;
+    border-width: 0.001cm;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+  }
+  
+  
+  #boldtext {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  
+  #map-text {
+    border-style: solid;
+    width: 24.5%;
+    float: left;
+  }
+  
+  #map-map {
+    border-style: solid;
+    width: 75%;
+    float: right;
+  }
+  
+  #bold-contact {
+    font-weight: bold;
+  }
+  
+  #jump {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #gift-cards-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 1.8;
+    padding-bottom: 1.5vw;
+  }
+  
+  /* tablet and mobile title */
+  @media (max-width: 1200px) {
+    .title {
+      font-size: 2.5vw;
+    }
+  
+    img {
+      min-width: 90%;
+    }
+  
+    button {
+      padding: 10px 20px;
+    }
+  }
+  
+  /* mobile*/
+  @media (max-width: 699px) {
+    .navbar {
+      font-size: 15px;
+      justify-content: center;
+    }
+  
+    .contact-text {
+      font-size: 12px;
+      padding: 1px;
+    }
+  
+    #co-owners-desc {
+      font-size: 2.6vw;
+    }
+  
+    #menu-text {
+      font-size: 2.6vw;
+    }
+  
+    #feedback-subtitle {
+      font-size: 2.7vw;
+    }
+  
+    #co-owners-subtitle {
+      font-size: 3vw;
+    }
+  
+    #context {
+      font-size: 1.5vw;
+    }
+  
+    #about-desc {
+      width: 97%;
+      font-size: 7px;
+    }
+  
+    #input {
+      width: 50%
+    }
+    .contact {
+      flex-wrap: wrap;
+    }
+  
+    .contact-text {
+      background: none;
+      border: none;
+      margin-bottom: 30px;
+      margin-right: 0px;
+    }
+  
+    .gmap_canvas {
+      max-width: 80%;
+    }
+  
+    iframe {
+      width: 100%;
+    }
+  
+    #gift-cards-text {
+      font-size: 3vw;
+    }
+  }
+  
+  /* tablet*/
+  @media (min-width: 700px) and (max-width: 1200px) {
+    .navbar {
+      justify-content: center;
+    }
+  
+    #menu-text {
+      font-size: 2.6vw;
+    }
+  
+    #co-owners-subtitle {
+      font-size: 2.7vw;
+    }
+  
+    #co-owners-desc {
+      font-size: 2vw;
+    }
+  
+    #context {
+      font-size: 1.7vw;
+    }
+  
+    #feedback-subtitle {
+      font-size: 2.5vw;
+    }
+  
+    #about-desc {
+      font-size: 1.81vw;
+    }
+  
+    #input {
+      width: 35%
+    }
+    .contact {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .gmap_canvas {
+      max-width: 90%;
+    }
+    .contact-text {
+      min-width: 20%;
+      font-size: 2vw;
+      line-height: 150%;
+    }
+    #gift-cards-text {
+      font-size: 2.7vw;
+    }
+  }
